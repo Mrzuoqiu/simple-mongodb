@@ -1,0 +1,20 @@
+<% include header %>
+<ul class="archive">
+<<<<<<< HEAD
+    <% posts.forEach(function(post,index){ %>
+    <li><%= post.time.day %></li>
+    <li><a href="/u/<%= post.name %>/<%= post.time.minute %>/<%= post.title %>"><%= post.title %></a></li>
+    <% }) %>
+</ul>
+<% include footer %>
+=======
+  <% posts.forEach(function (post, index) { %>
+  <li><%= post.time.day %></li>
+  <li><a href="/u/<%= post.name %>/<%= post.time.minute %>/<%= post.title %>"><%= post.title %></a></li>
+  <% }) %>
+</ul>
+
+
+<% include footer %>
++
+>>>>>>> 后台数据库

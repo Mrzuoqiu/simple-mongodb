@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+<% include header %>
+<% posts.forEach(function(tag,index){ %>
+    <span><a class="tag" href="/tags/<%= tag %>"><%= tag %></a></span>
+<%  }) %>
+<% include footer %>
+=======
+<%- include header %>
+<% posts.forEach(function (tag, index) { %>
+<span><a class="tag" href="/tags/<%= tag %>"><%= tag %></a></span>
+<% }) %>
+<%- include footer %>
+>>>>>>> 后台数据库
